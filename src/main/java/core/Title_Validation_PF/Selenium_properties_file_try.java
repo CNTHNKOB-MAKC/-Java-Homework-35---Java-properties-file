@@ -21,7 +21,7 @@ public class Selenium_properties_file_try {
  
 		try {
 			//properties.load(new FileInputStream("./src/main/resources/Test.properties"));
-			properties.load(new FileInputStream("C:/Workspace/JavaMultipleArguments/src/main/resources/Test.properties.txt"));
+			properties.load(new FileInputStream("C:/Workspace/Title_Validation_PF/src/main/resources/Test.properties.txt"));
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
